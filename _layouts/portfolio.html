@@ -1,0 +1,11 @@
+---
+layout: single
+---
+{% if page.website and page.website.size > 0 %}
+<div class="layout-portfolio-subheader">
+  <i class="fas fa-link" aria-hidden="true" title="permalink"></i>
+  <a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
+</div>
+{% endif %}
+
+{{ content }}

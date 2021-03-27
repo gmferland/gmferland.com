@@ -8,12 +8,17 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Based on the default minimal mistakes config file at:
+# https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale: 'en-US'
 title: Greg Ferland
+title_separator: '|'
 description: |
   Personal and portfolio website for Greg Ferland, Software Engineer.
   Skier. Runner. Mainer. Currently living in Boston, MA.
@@ -30,7 +35,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
 
 include:
   - _pages
@@ -56,11 +61,22 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Social sharing
+og_image: /assets/images/bio-photo.jpg
+
+# Analytics
+analytics:
+  provider: google
+  google:
+    tracking_id: 'UA-116117867-1'
+    anonymize_ip: false # (default)
+
+# Site author
 author:
   name: 'Greg Ferland'
   email: gmferland@gmail.com
   avatar: '/assets/images/bio-photo.jpg'
-  bio: 'Skier. Runner. Mainer. Thoughtful&nbsp;learner. Careful&nbsp;listener.'
+  bio: Don't let perfect be the enemy of good.
   location: 'Boston, MA'
   links:
     - label: 'LinkedIn'
@@ -88,6 +104,11 @@ footer:
 #      icon: 'fab fa-fw fa-instagram'
 #      url: 'https://instagram.com/'
 
+collections:
+  portfolio:
+    output: true,
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -106,6 +127,13 @@ defaults:
       type: pages
     values:
       layout: single
+      author_profile: true
+  # _portfolio
+  - scope:
+      path: ''
+      type: portfolio
+    values:
+      layout: portfolio
       author_profile: true
 
 category_archive:

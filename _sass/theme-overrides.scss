@@ -1,0 +1,15 @@
+.grid__item {
+  @include breakpoint($medium) { 
+    width: span(5 of 10);
+  }
+
+  .archive__item-teaser {
+    @include breakpoint($small) {
+      max-height: unset;
+    }
+
+    @include breakpoint($medium) {
+      max-height: unset;
+    }
+  }
+}
