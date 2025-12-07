@@ -75,8 +75,8 @@ analytics:
 author:
   name: 'Greg Ferland'
   email: gmferland@gmail.com
-  avatar: '/assets/images/bio-photo.jpg'
-  bio: Front End Developer at Just Appraised
+  avatar: '/assets/images/bio-photo-2.JPEG'
+  bio: Senior Software Engineer at New Balance
   location: 'Boston, MA'
   links:
     - label: 'LinkedIn'
@@ -85,12 +85,6 @@ author:
     - label: 'GitHub'
       icon: 'fab fa-fw fa-github'
       url: 'https://github.com/gmferland'
-    - label: 'Twitter'
-      icon: 'fab fa-fw fa-twitter-square'
-      url: 'https://twitter.com/gmferland'
-    - label: 'Instagram'
-      icon: 'fab fa-fw fa-instagram'
-      url: 'https://www.instagram.com/gmferland/'
 
 footer:
   links:
