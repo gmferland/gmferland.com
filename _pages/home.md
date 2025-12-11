@@ -18,5 +18,6 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "View resume"
 ---
+I am a Senior Software Engineer at New Balance specializing in DevOps & Platform Engineering. After several years as a full stack web developer, I have found my passion in building packages, tools, and automations for other developers because I believe that how you do the work is as important as the work itself.
 
-{% include feature_row %}
+{% include feature_row border="top" %}

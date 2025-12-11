@@ -22,3 +22,10 @@
   opacity: 100%;
   transition: none;
 }
+
+.feature__wrapper {
+  &.border-top {
+    border-bottom: none;
+    border-top: 1px solid $border-color;
+  }
+}
