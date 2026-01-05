@@ -76,7 +76,7 @@ author:
   name: 'Greg Ferland'
   email: gmferland@gmail.com
   avatar: '/assets/images/bio-photo-2.JPEG'
-  bio: Senior Software Engineer at New Balance
+  bio: Software Engineer
   location: 'Boston, MA'
   links:
     - label: 'LinkedIn'
@@ -112,8 +112,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
       related: true
   # _pages
   - scope:

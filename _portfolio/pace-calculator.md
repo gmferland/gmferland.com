@@ -1,6 +1,6 @@
 ---
 title: Running pace calculator
-website: https://racepace.space
+# website: https://racepace.space
 header:
   teaser: /assets/images/pace-calculator-teaser.png
 excerpt: |
