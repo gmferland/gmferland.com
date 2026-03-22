@@ -13,3 +13,27 @@
     }
   }
 }
+
+.author__avatar img {
+  max-width: 180px
+}
+
+.sidebar {
+  opacity: 100%;
+  transition: none;
+}
+
+.feature__wrapper {
+  &.border-top {
+    border-bottom: none;
+    border-top: 1px solid $border-color;
+  }
+}
+
+.archive .feature__wrapper .archive__item-title {
+  margin-top: 0.5em;
+}
+
+code {
+  white-space: pre-wrap !important;
+}

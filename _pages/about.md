@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+published: false
 ---
 
 I believe moving "slow" actually helps teams move faster. By investing time in proper code review and documentation, we avoid wasting time later on fixing bugs or explaining the same things repeatedly. When given proper tooling and processes, developers are more self-sufficient and can write higher quality code more quickly, without having to worry about breaking an application.

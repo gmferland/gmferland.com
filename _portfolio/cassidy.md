@@ -1,13 +1,13 @@
 ---
 title: "Cassidy - A better running log"
-website: https://runcassidy.com
+# website: https://runcassidy.com
 header:
   teaser: /assets/images/cassidy-teaser.png
 excerpt: |
   Unsatisfied with the existing landscape of running log websites, my friend
   Cole Townsend and I built our own.
 ---
-Cassidy, named for the protagonist in the novel _Once A Runner_, is a training log for runners and other athletes. It's a hobby project that I started with my friend [Cole Townsend](https://twnsnd.co) after growing tired of manipulating the spreadsheet that contained the past few years of my training. But anyone is welcome to [sign up](https://runcassidy.com) if interested!
+Cassidy, named for the protagonist in the novel _Once A Runner_, is a training log for runners and other athletes. It's a hobby project that I started with my friend [Cole Townsend](https://twnsnd.co) after growing tired of manipulating the spreadsheet that contained the past few years of my training.
 
 For me, this project has been a fun opportunity to create something I'm passionate about and experiment with new technology and design patterns. It also kept me busy during long hours of quarantine and lockdown during the summer and fall of 2020 at the height of the COVID-19 pandemic.
 
