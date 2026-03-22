@@ -1,5 +1,6 @@
 ---
 title: Self Hosting LLMs with Llama.cpp and Unsloth
+slug: self-hosted-llm
 ---
 
 Progress in AI is moving forward at a blistering pace. It seems like everyday there is a new model with more parameters doing things that we have never seen before. But recently I have just begun to see a proliferation of small LLMs that claim incredible performance with a consumption of resources suitable for laptops and mobile phones. Because I am worried about the environmental impacts of large data centers, because I am hesitant to shell out a monthly subscription fee to Anthropic or OpenAI, and because I have a home server lying around with not much to do, I decided to see for myself what I could accomplish with a self hosted, open source LLM. **The goal: run Claude Code using my self hosted model.**
